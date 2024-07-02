@@ -28,4 +28,12 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
+notifications:
+  - type: issue
+    repository: kfjaramillo/Monitor2
+    assignees:
+      - kfjaramillo
+    labels:
+      - bug
+    threshold: 1
 # See https://upptime.js.org/docs/configuration
