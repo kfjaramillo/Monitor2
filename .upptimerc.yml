@@ -11,7 +11,8 @@ sites:
     url: https://conexion.puce.edu.ec/
   - name: Test Broken Site
     url: https://pruebasitioroto.koj.ce
-
+    assignees:
+      - kfjaramillo
 status-website:
   # Add your custom domain name, or remove the `cname` line if you don't have a domain
   # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
@@ -28,12 +29,12 @@ status-website:
       href: https://github.com/$OWNER/$REPO
 
 # Upptime also supports notifications, assigning issues, and more
-notifications:
-  - type: issue
-    repository: kfjaramillo/Monitor2
-    assignees:
-      - kfjaramillo
-    labels:
-      - bug
-    threshold: 1
+# notifications:
+#  - type: issue
+#    repository: kfjaramillo/Monitor2
+#    assignees:
+#      - kfjaramillo
+#    labels:
+#      - bug
+#    threshold: 1
 # See https://upptime.js.org/docs/configuration
