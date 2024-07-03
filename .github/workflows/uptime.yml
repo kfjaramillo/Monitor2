@@ -38,14 +38,3 @@ jobs:
         env:
           GH_PAT: ${{ secrets.GH_PAT || github.token }}
           SECRETS_CONTEXT: ${{ toJson(secrets) }}
-      -  name: Check Upptime status
-         run: |
-          status_code=$(echo "${{ steps.upptime.outputs.status }}" | jq -r '.status_code')
-          if [ $status_code -ne 0 ]; then
-            echo "Upptime failed to resolve a site. Sending notification to Teams..."
-            curl -X POST -H 'Content-Type: application/json' -d "{\"text\":\"Upptime failed to resolve a site.\"}" $TEAMS_WEBHOOK_URL
-          else
-            echo "Upptime status check passed."
-          fi
-         env:
-          TEAMS_WEBHOOK_URL: ${{ secrets.TEAMS_WEBHOOK_URL }}
