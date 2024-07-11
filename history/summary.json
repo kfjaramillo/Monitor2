@@ -40,19 +40,19 @@
     "url": "https://conexion.puce.edu.ec/",
     "icon": "https://icons.duckduckgo.com/ip3/conexion.puce.edu.ec.ico",
     "slug": "hacker-news",
-    "status": "down",
+    "status": "up",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "100.00%",
-    "uptimeYear": "100.00%",
-    "time": 2954,
-    "timeDay": 2989,
-    "timeWeek": 3023,
-    "timeMonth": 2954,
-    "timeYear": 2954,
+    "uptimeDay": "96.62%",
+    "uptimeWeek": "99.52%",
+    "uptimeMonth": "99.89%",
+    "uptimeYear": "99.99%",
+    "time": 3309,
+    "timeDay": 5808,
+    "timeWeek": 3723,
+    "timeMonth": 3309,
+    "timeYear": 3309,
     "dailyMinutesDown": {
-      "2024-07-11": 0
+      "2024-07-11": 49
     }
   },
   {
