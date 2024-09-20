@@ -40,7 +40,7 @@
     "url": "https://conexion.puce.edu.ec/",
     "icon": "https://icons.duckduckgo.com/ip3/conexion.puce.edu.ec.ico",
     "slug": "hacker-news",
-    "status": "up",
+    "status": "down",
     "uptime": "99.95%",
     "uptimeDay": "100.00%",
     "uptimeWeek": "100.00%",
@@ -52,6 +52,7 @@
     "timeMonth": 3452,
     "timeYear": 3222,
     "dailyMinutesDown": {
+      "2024-09-20": 0,
       "2024-09-07": 353,
       "2024-09-06": 385,
       "2024-08-29": 15,
